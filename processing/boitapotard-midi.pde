@@ -6,10 +6,9 @@ import themidibus.*; //Import the library
 MidiBus myBus; // The MidiBus
 int[] Pots = new int[8]; // les 8 potards
 
-/* TODO :
+/* DONE :
   initialize value of Pots array with true value read 
-  from pots and sent with a specific command or note at start
-
+  from pots and sent with a specific note at start
 */
 
 void setup() {
@@ -33,26 +32,7 @@ void setup() {
 }
 
 void draw() {
-}
-
-void noteOn(int channel, int pitch, int velocity) {
-  // Receive a noteOn
-  println();
-  print("Note On:");
-  //println("--------");
-  print(" Channel:"+channel);
-  print(" Pitch:"+pitch);
-  println(" Velocity:"+velocity);
-}
-
-void noteOff(int channel, int pitch, int velocity) {
-  // Receive a noteOff
-  println();
-  print("Note Off:");
-  //println("--------");
-  print("Channel:"+channel);
-  print(" Pitch:"+pitch);
-  println(" Velocity:"+velocity);
+ // put your drawing code here
 }
 
 void controllerChange(int channel, int number, int value) {
