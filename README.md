@@ -18,11 +18,13 @@ Josh (qu'il en soit remercié) a updaté la lib en version 2.5.3 pour "forcer" l
      
 ```
 **Teensy LC :** 
-- pas cher (<20€)
-- possibilités MIDI
-- 8 entrées analogiques
+- reconnu comme un périphérique MIDI (cf. `name.c` pour le nom du device)
+- gestion midiUSB
+- pas très cher (<20€)
+- 13 entrées analogiques (ADC jusqu'à 12 bits, 10 bits par défaut)
 - de la RAM
-- une led intégrée
+- une led intégrée sur la PIN 13
+- un port microUSB (pour l'alim et la communication)
 
 Dans Processing, j'utilise cette autre formidable bibliothèque [theMidiBus](https://github.com/sparks/themidibus) de Severin Smith, pour intercepter les messages midi et remplir un Array __Pots[]__
 
