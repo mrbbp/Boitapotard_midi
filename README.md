@@ -24,4 +24,4 @@ Josh (qu'il en soit remercié) a updaté la lib en version 2.5.3 pour "forcer" l
 - de la RAM
 - une led intégrée
 
-Dans Processing, j'utilise cette autre formidable librairie [theMidiBus](https://github.com/sparks/themidibus) de Severin Smith, pour intercepter les messages midi.
+Dans Processing, j'utilise cette autre formidable bibliothèque [theMidiBus](https://github.com/sparks/themidibus) de Severin Smith, pour intercepter les messages midi et remplir un Array __Pots[]__
