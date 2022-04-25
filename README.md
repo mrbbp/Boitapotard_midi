@@ -2,6 +2,7 @@
 Teensy LC + 8 potards rotatifs linéaires 10kΩ + librairie [MIDIController](https://github.com/joshnishikawa/MIDIcontroller)
 
 Utilise intensément la formidable librairie de John Nishikawa [MIDIController](https://github.com/joshnishikawa/MIDIcontroller) qui permet de gérer boutons, potards, encodeurs, pour créer des contrôleurs midi.
+Josh (qu'il en soit remercié) a updaté la lib en version 2.5.3 pour "forcer" la lecture des contrôleurs une première fois (dans le sketch Processing, au setup, une première lecture des potards permet de remplir la table de vérité avec les données réelles (positions initiales)).
 
 ```
  teensy LC | --- | Control num
