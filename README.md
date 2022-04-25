@@ -25,3 +25,7 @@ Josh (qu'il en soit remercié) a updaté la lib en version 2.5.3 pour "forcer" l
 - une led intégrée
 
 Dans Processing, j'utilise cette autre formidable bibliothèque [theMidiBus](https://github.com/sparks/themidibus) de Severin Smith, pour intercepter les messages midi et remplir un Array __Pots[]__
+
+![boitapotard_int](https://user-images.githubusercontent.com/1716290/165055529-7a3cbd8e-8464-4f92-a8b9-d2e43c4be280.jpg)
+
+![boitapotard_ext](https://user-images.githubusercontent.com/1716290/165055586-23fc91f3-c62f-4772-aa2d-b08b1714a504.jpg)
